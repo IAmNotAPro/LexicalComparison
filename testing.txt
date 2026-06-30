@@ -1,0 +1,100 @@
+Script started on 2026-03-13 16:28:09-05:00 [TERM="xterm-256color" TTY="/dev/pts/218" COLUMNS="115" LINES="24"]
+[?2004h]0;gc041@uark.edu@turing: ~/Project Four[01;32mgc041@uark.edu@turing[00m:[01;34m~/Project Four[00m$ [7mg++ -Wall goo.cpp -o goo.exe[27m
+[7mg++ -Wall googoo.cpp -o googoo.exe[27m[A]0;gc041@uark.edu@turing: ~/Project Four[01;32mgc041@uark.edu@turing[00m:[01;34m~/Project Four[00m$ g++ -Wall goo.cpp -o goo.exe
+g++ -Wall googoo.cpp -o googoo.exe
+[?2004l[01m[Kgoo.cpp:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > ReadWords(std::string)[m[K’:
+[01m[Kgoo.cpp:46:22:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Kword[m[K’ creates a copy from type ‘[01m[Kconst std::string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wrange-loop-construct-Wrange-loop-construct]8;;[m[K]
+   46 |     for(const string [01;35m[Kword[m[K: cleanedWords)
+      |                      [01;35m[K^~~~[m[K
+[01m[Kgoo.cpp:46:22:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+   46 |     for(const string [01;36m[Kword[m[K: cleanedWords)
+      |                      [01;36m[K^~~~[m[K
+      |                      [32m[K&[m[K
+[01m[Kgoo.cpp:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > WordFrequency(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[Kgoo.cpp:119:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  119 |     for(int i = 0; [01;35m[Ki < words.size()[m[K; i++){
+      |                    [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[Kgoogoo.cpp:[m[K In function ‘[01m[Kfloat lexicalComparison(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[Kgoogoo.cpp:31:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   31 |         for (int i = 0; [01;35m[Ki < bookTwoWords.size()[m[K; i++){
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgoogoo.cpp:34:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   34 |             while([01;35m[Ktemp < bookOneWords.size()[m[K){
+      |                   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgoogoo.cpp:32:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KisFound[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   32 |             bool [01;35m[KisFound[m[K = false;
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[Kgoogoo.cpp:45:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   45 |         for (int i = 0; [01;35m[Ki < bookOneWords.size()[m[K; i++){
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgoogoo.cpp:48:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   48 |             while([01;35m[Ktemp < bookTwoWords.size()[m[K){
+      |                   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgoogoo.cpp:46:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KisFound[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   46 |             bool [01;35m[KisFound[m[K = false;
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[Kgoogoo.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kgoogoo.cpp:120:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KaverageWords[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  120 |     int [01;35m[KaverageWords[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;gc041@uark.edu@turing: ~/Project Four[01;32mgc041@uark.edu@turing[00m:[01;34m~/Project Four[00m$ ./goo.exe
+[?2004lCalculating frequency for Beowulf...
+Calculating frequency for City of God...
+Calculating frequency for Frankenstein...
+Calculating frequency for Moby Dick...
+Calculating frequency for Pride and Prejudice...
+Calculating frequency for Romeo and Juliet...
+Calculating frequency for Sherlock Holmes...
+Calculating frequency for Tom Sawyer...
+Calculating frequency for The Brothers Karamazov...
+Calculating frequency for The Great Gatsby...
+[?2004h]0;gc041@uark.edu@turing: ~/Project Four[01;32mgc041@uark.edu@turing[00m:[01;34m~/Project Four[00m$ ./googoo.exe
+[?2004lPlease choose two books from the following list: 
+1. Beowulf
+2. CityOfGod
+3. BrothersKaramazov
+4. Frankenstein
+5. GreatGatsby
+6. MobyDick
+7. PrideAndPrejudice
+8. RomeoAndJuliet
+9. SherlockHolmes
+10. TomSawyer
+Input first book name (no spaces): Beowulf
+Input second book name (no spaces): CityOfGod
+
+Beowulf
+Total words in Book: : 17063
+Number of Unique Words: 2225
+
+CityOfGod
+Total words in Book: : 103671
+Number of Unique Words: 5564
+Lexical similarity is: 32.5074%
+[?2004h]0;gc041@uark.edu@turing: ~/Project Four[01;32mgc041@uark.edu@turing[00m:[01;34m~/Project Four[00m$ ./googoo.exe
+[?2004lPlease choose two books from the following list: 
+1. Beowulf
+2. CityOfGod
+3. BrothersKaramazov
+4. Frankenstein
+5. GreatGatsby
+6. MobyDick
+7. PrideAndPrejudice
+8. RomeoAndJuliet
+9. SherlockHolmes
+10. TomSawyer
+Input first book name (no spaces): Beowulf
+Input second book name (no spaces): MobyDick
+
+Beowulf
+Total words in Book: : 17063
+Number of Unique Words: 2225
+
+MobyDick
+Total words in Book: : 97466
+Number of Unique Words: 7436
+Lexical similarity is: 27.1193%
+[?2004h]0;gc041@uark.edu@turing: ~/Project Four[01;32mgc041@uark.edu@turing[00m:[01;34m~/Project Four[00m$ ext[Kit
+[?2004lexit
+
+Script done on 2026-03-13 16:29:08-05:00 [COMMAND_EXIT_CODE="0"]
